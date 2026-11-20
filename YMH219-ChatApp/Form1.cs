@@ -8,7 +8,7 @@ namespace YMH219_ChatApp
             InitializeComponent();
 
             Text = "YMH219 Chat";
-            ClientSize = new Size(320, 170);
+            ClientSize = new Size(320, 180);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Font = new Font("Segoe UI", 10);
@@ -31,7 +31,15 @@ namespace YMH219_ChatApp
             };
             btnServer.Click += (s, e) => new ServerForm().Show();
 
-            Controls.AddRange(new Control[] { lblTitle, btnServer });
+            var btnClient = new Button
+            {
+                Text = "İstemci Penceresi Aç",
+                Location = new Point(40, 120),
+                Size = new Size(240, 40)
+            };
+            btnClient.Click += (s, e) => new ClientForm().Show();
+
+            Controls.AddRange(new Control[] { lblTitle, btnServer, btnClient });
         }
     }
 }

@@ -24,7 +24,7 @@ namespace YMH219_ChatApp
 
             var lblPort = new Label { Text = "Port:", AutoSize = true, Location = new Point(20, 22) };
             txtPort = new TextBox { Text = "5000", Location = new Point(65, 19), Width = 80 };
-            btnStart = new Button { Text = "Sunucuyu Başlat", Location = new Point(160, 15), Size = new Size(140, 32) };
+            btnStart = new Button { Text = "Başlat", Location = new Point(160, 15), Size = new Size(140, 32) };
             btnStop = new Button { Text = "Durdur", Location = new Point(310, 15), Size = new Size(90, 32) };
             lblStatus = new Label
             {
