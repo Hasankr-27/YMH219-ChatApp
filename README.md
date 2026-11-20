@@ -18,7 +18,7 @@ YMH 219 Nesne Tabanlı Programlama dersi ek uygulama ödevi kapsamında gelişti
 
 
 
-!\[Sohbet](screenshots/sohbet.png)
+!\[Sohbet][(screenshots/sohbet.png)](https://github.com/Hasankr-27/YMH219-ChatApp/blob/main/screenshots/hata.png)
 
 
 
